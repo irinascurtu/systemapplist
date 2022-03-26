@@ -51,5 +51,6 @@ choco install nvidia-display-driver
 #choco install rdcman
 #choco install windowsazurepowershell
 #choco install visioviewer
+#choco install erlang
 
 choco feature disable -n allowGlobalConfirmation
