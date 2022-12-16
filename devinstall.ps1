@@ -1,7 +1,23 @@
+# Simple environment setup script
+# Uncomment the command below if you don't want to approve every app
+# choco feature enable -n=allowGlobalConfirmation
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
 ECHO Installing apps
 
 ECHO Configure chocolatey
 choco feature enable -n allowGlobalConfirmation
+
+# Install Applications
+choco feature enable -n=allowGlobalConfirmation
+choco install paint.net -y
+choco install zoom -y
+choco install adobereader -y
+choco install microsoft-teams -y
+choco install obs-studio -y
+choco install obs-virtualcam -y
+choco install streamdeck -y
+choco install plex -y
 
 # DEV
 choco install visualstudio-installer
@@ -12,15 +28,18 @@ choco install nodejs.install
 choco install nodejs
 choco install github er
 choco install git
-choco install jre8
 choco install yarn
 choco install vscode
 choco install microsoft-windows-terminal
 choco install sql-server-management-studio
-choco install streamdeck
+choco install nodejs -y
+choco install git -y
+choco install notepadplusplus -y
+choco install visualstudiocode -y
+choco install postman -y
+choco install ssms -y
 
 # DEVOPS
-choco install ilspy 
 choco install docker-desktop
 
 #Misc
