@@ -13,16 +13,21 @@ choco feature enable -n=allowGlobalConfirmation
 choco install paint.net -y
 choco install zoom -y
 choco install adobereader -y
+choco install goxlr
 choco install microsoft-teams -y
 choco install obs-studio -y
 choco install obs-virtualcam -y
 choco install streamdeck -y
 choco install plex -y
+choco install discord
+choco install sony-imaging-edge-webcamv
+choco install logioptionsplus
+choco install notion
 
 # DEV
 choco install visualstudio-installer
 choco install notepadplusplus
-choco install postman
+choco install postman -y
 choco install yeoman 
 choco install nodejs.install
 choco install nodejs
@@ -36,13 +41,13 @@ choco install nodejs -y
 choco install git -y
 choco install notepadplusplus -y
 choco install visualstudiocode -y
-choco install postman -y
 choco install ssms -y
 
 # DEVOPS
 choco install docker-desktop
 
 #Misc
+choco install python3
 choco install 7zip 
 choco install google-drive-file-stream
 choco install paint.net
@@ -61,10 +66,11 @@ choco install xeroxupd
 
 # Browsers
 choco install googlechrome
-choco install microsoft-edge
+choco install firefox
 
 # drivers
 choco install nvidia-display-driver
+choco install jre8
 
 # Optional
 #choco install rdcman
