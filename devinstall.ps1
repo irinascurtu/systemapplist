@@ -18,6 +18,7 @@ choco install microsoft-teams -y
 choco install obs-studio -y
 choco install obs-virtualcam -y
 choco install streamdeck -y
+choco install elgato-controlcenter
 choco install plex -y
 choco install discord
 choco install sony-imaging-edge-webcamv
