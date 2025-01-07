@@ -24,6 +24,7 @@ choco install discord
 choco install sony-imaging-edge-webcamv
 choco install logioptionsplus
 choco install notion
+choco install displayfusion
 
 # DEV
 choco install visualstudio-installer
